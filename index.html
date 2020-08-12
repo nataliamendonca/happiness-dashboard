@@ -1,0 +1,84 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title><em>Happiness Dashboard</em></title>
+
+<link href="main.css" rel="stylesheet">
+<link href="expo.css" rel="stylesheet">
+<style>
+  iframe {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  html, body, iframe { height: 100%; }
+
+</style>
+
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  </head>
+
+  <body>
+
+<div class="masthead">
+  <h1 class="masthead-title">
+    <a href="/">Happiness Dashboard</a>
+  </h1>
+  <p class="masthead-lead">
+    This is a growing dashboard with charts on how a variety of variables are related to self-reported happiness and life satisfaction, both at the individual and at the national level. All charts were made by Natália Mendonça with R and Python.
+  </p>
+
+  <hr class="masthead-hr">
+
+  <hr class="masthead-hr d-md-none">
+</div>
+    <div class="listing">
+
+  <div class="entry">
+    <div class="entry-content">
+      <h2 class="entry-title">
+        <a href="">Mood and Mental Health</a>
+      </h2>
+    </div>
+    <a class="entry-thumb" href="moodandmentalhealthall.png">
+      <p><img src="moodandmentalhealthall.png"/></p>
+    </a>
+  </div>
+
+  <div class="entry">
+    <div class="entry-content">
+      <h2 class="entry-title">
+        <a href="">Life satisfaction by GDP per capita</a>
+      </h2>
+    </div>
+    <a class="entry-thumb" href="https://nataliamendonca.shinyapps.io/LS_by_GDPpercapita/" title="Life satisfaction by GDP per capita" rel="noopener" target="_blank">
+      <p><iframe id="myIframe" src="https://nataliamendonca.shinyapps.io/LS_by_GDPpercapita/" scrolling="no" frameborder="no"style="border: none; width: 100%; height: 550px"></iframe></p>
+    </a>
+  </div>
+
+  <div class="entry">
+    <div class="entry-content">
+      <h2 class="entry-title">
+        <a href="">Happiness by GDP per capita</a>
+      </h2>
+    </div>
+    <a class="entry-thumb" href="https://nataliamendonca.shinyapps.io/very_happy_by_GDP_per_capita/" title="Percentage “very happy” by GDP per capita" rel="noopener" target="_blank">
+      <p><iframe id="myIframe" src="https://nataliamendonca.shinyapps.io/very_happy_by_GDP_per_capita/" scrolling="no" frameborder="no"style="border: none; width: 100%; height: 550px"></iframe></p>
+    </a>
+  
+      
+    <a class="entry-thumb" href="https://nataliamendonca.shinyapps.io/happy_by_gdp_per_capita/" title="Percentage “very happy” or “quite happy” by GDP per capita" rel="noopener" target="_blank">
+      <p><iframe id="myIframe" src="https://nataliamendonca.shinyapps.io/happy_by_gdp_per_capita/" scrolling="no" frameborder="no"style="border: none; width: 100%; height: 550px"></iframe></p>
+    </a>
+    </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
